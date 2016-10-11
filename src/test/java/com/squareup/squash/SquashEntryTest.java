@@ -142,7 +142,7 @@ public class SquashEntryTest {
         new StackTraceElement("com.taco.Dude", "holler", "core-android/src/com/taco/Dude.java",
             655);
     StackTraceElement[] doublyNestedStackTrace = new StackTraceElement[] {z0, z1, z2};
-    StackTraceElement s0 =
+    StackTraceElement s0 =  
         new StackTraceElement("com.taco.Taco", "digest", "core-android/src/com/taco/Taco.java", 50);
     StackTraceElement s1 =
         new StackTraceElement("com.taco.Taco", "eat", "core-android/src/com/taco/Taco.java", 80);
